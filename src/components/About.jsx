@@ -18,9 +18,9 @@ const About = () => {
         </p>
         <p className="text-white text-center text-lg md:text-xl lg:text-2xl leading-relaxed max-w-3xl mt-6">
           Tengo en cuenta la documentación y las pruebas unitarias, disfruto trabajar en equipo y aprender de los demás. Me gusta la música y el deporte, soy una persona proactiva y con ganas de aprender y mejorar cada día.
-          <br /><br />
-          Cada día busco aprender más y aplicar las últimas tendencias en mi trabajo para aportar a la sociedad software de calidad.
-          <br /><br />
+         
+          
+         
            
         </p>
       </div>
