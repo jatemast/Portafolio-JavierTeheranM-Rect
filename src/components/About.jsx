@@ -16,13 +16,7 @@ const About = () => {
           <br /><br />
           Me apasiona la tecnología, aplico código limpio y principios SOLID en mis desarrollos.
         </p>
-        <p className="text-white text-center text-lg md:text-xl lg:text-2xl leading-relaxed max-w-3xl mt-6">
-          Tengo en cuenta la documentación y las pruebas unitarias, disfruto trabajar en equipo y aprender de los demás. Me gusta la música y el deporte, soy una persona proactiva y con ganas de aprender y mejorar cada día.
-         
-          
-         
-           
-        </p>
+       
       </div>
     </div>
   );
