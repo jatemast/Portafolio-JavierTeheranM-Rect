@@ -12,6 +12,7 @@ function App() {
       <NavBar />
       <SlideBar />
       <Home />
+      
       <About />
       <Projects />
       <Experience />

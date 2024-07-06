@@ -10,13 +10,7 @@ const Projects = () => {
       githubLink: " https://github.com/jatemast/COVIDScan-AI",
       deployLink: " https://github.com/jatemast/apiflask",
     },
-    {
-      description:
-        "Aplicacion en laravel para determinar si una frase esta bien escrita en afirmativo pasado en ingles usando una exprecion regular",
-      projectsImageSrc: projectImage,
-      githubLink: "https://github.com/jatemast/vervotobe_afirmativopasado",
-      deployLink: "https://github.com/jatemast/vervotobe_afirmativopasado",
-    },
+   
     {
       description:
         "Portafolio en React",

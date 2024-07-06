@@ -9,7 +9,7 @@ const Home = () => {
       <img alt="header" src={header} className="md:hidden w-screen" />
       <div className="md:h-20 min-[700px]:hidden bg-[#2B2B29]"></div>
 
-      <div className="absolute md:text-[40px] xl:left-[-20px] xl:text-[40px] md:left-[0] md:w-screen p-6 md:static left-[1cm] top-[3cm] w-[619px] h-[250px] text-black text-[64px] font-normal">
+      <div className="absolute md:text-[40px] xl:left-[-20px] xl:text-[40px] md:left-[0] md:w-screen p-6 md:static left-[1cm] top-[2cm] w-[619px] h-[250px] text-black text-[64px] font-normal">
         <p>Hola, soy Javier Teheran Magallanez</p>
         <Link
           className="cursor-pointer text-[20px] text-white bg-slate-500 mt-2 p-4"
@@ -23,7 +23,7 @@ const Home = () => {
       <img
         alt="developer"
         src={developerHeader}
-        className="absolute left-[50%] top-[450px] transform -translate-x-1/2 w-[300px] h-[300px] md:w-[200px] md:h-[200px] rounded-md" // Cambiado a rounded-md para esquinas más redondeadas
+        className="absolute left-[50%] top-[400px] transform -translate-x-1/2 w-[300px] h-[300px] md:w-[200px] md:h-[200px] rounded-md" // Cambiado a rounded-md para esquinas más redondeadas
       />
     </div>
   );
