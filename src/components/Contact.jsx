@@ -2,35 +2,36 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="w-screen 2xl:mt-20   h-screen flex items-center flex-col">
-      <h2 className="font-semibold text-[40px]">Contactame</h2>
+    <div className="w-screen 2xl:mt-20 h-screen flex items-center flex-col">
+      <h2 className="font-semibold text-4xl md:text-5xl lg:text-6xl mb-8">Contactame</h2>
       <form
-        action= "https://getform.io/f/anleejla"
+        action="https://getform.io/f/anleejla"
         method="POST"
-        className="flex flex-col items-center justify-center pt-10"
+        className="flex flex-col items-center justify-center pt-4 md:pt-8"
       >
         <input
           type="text"
           name="name"
-          placeholder="Name"
-          className="border border-slate-800 mt-6  2xl:w-[400px] sm:w-[300px]"
+          placeholder="Nombre"
+          className="border-2 border-gray-300 rounded-lg py-2 px-4 mb-4 w-80 md:w-96 lg:w-100"
+          required
         />
         <input
-          type="text"
+          type="email"
           name="email"
-          placeholder="Email"
-          className="border border-slate-800 mt-6  2xl:w-[400px]  sm:w-[300px]"
+          placeholder="Correo electrónico"
+          className="border-2 border-gray-300 rounded-lg py-2 px-4 mb-4 w-80 md:w-96 lg:w-100"
+          required
         />
         <textarea
           name="message"
-          placeholder="Message"
-          id=""
-          resize="none"
-          className="border border-slate-800 mt-6   2xl:w-[400px]  sm:w-[300px]   "
+          placeholder="Mensaje"
+          className="border-2 border-gray-300 rounded-lg py-2 px-4 mb-4 w-80 md:w-96 lg:w-100 h-40 resize-none"
+          required
         ></textarea>
         <button
           type="submit"
-          className="border border-slate-800 mt-8 2xl:w-[300px] sm:w-[120px] p-2"
+          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg w-80 md:w-96 lg:w-100"
         >
           Enviar
         </button>

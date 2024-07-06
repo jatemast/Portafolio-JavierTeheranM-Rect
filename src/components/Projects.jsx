@@ -24,6 +24,13 @@ const Projects = () => {
       githubLink: "https://github.com/jatemast/PortafolioMinimalistaRect",
       deployLink: "https://github.com/jatemast/PortafolioMinimalistaRect",
     },
+    {
+      description:
+        "Portafolio en wordpress desplegado en 000host",
+      projectsImageSrc: projectImage,
+   
+      deployLink: "https://javierteheran.000webhostapp.com/#",
+    },
   ];
 
   return (

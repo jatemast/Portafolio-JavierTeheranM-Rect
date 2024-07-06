@@ -23,11 +23,10 @@ const Home = () => {
       <img
         alt="developer"
         src={developerHeader}
-        className="absolute left-[50%] top-[450px] transform -translate-x-1/2 w-[300px] h-[300px] md:w-[200px] md:h-[200px] rounded-full"
+        className="absolute left-[50%] top-[450px] transform -translate-x-1/2 w-[300px] h-[300px] md:w-[200px] md:h-[200px] rounded-md" // Cambiado a rounded-md para esquinas más redondeadas
       />
     </div>
   );
 };
 
 export default Home;
-
