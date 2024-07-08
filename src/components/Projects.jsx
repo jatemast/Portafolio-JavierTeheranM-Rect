@@ -32,7 +32,7 @@ const Projects = () => {
       name="Projects"
       className="h-screen w-screen flex items-center flex-col"
     >
-      <h2 className="font-semibold text-[40px]">Projectos</h2>
+      <h2 className="font-semibold text-[40px]">Proyectos</h2>
       <div className="   gap-4 mt-10 grid grid-cols-3 md:grid-cols-1">
         {projects.map((p) => (
           <div className="relative w-[300px] h-[300px]  border-red-100 border-spacing-1 border p-2 bg-slate-500 ">

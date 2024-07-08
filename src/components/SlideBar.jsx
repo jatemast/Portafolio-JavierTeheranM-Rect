@@ -35,7 +35,7 @@ const SlideBar = () => {
       id: 4,
       child: (
         <>
-          Resumen <AiOutlineFilePdf size={30} />
+          Curriculum <AiOutlineFilePdf size={30} />
         </>
       ),
       href: "/resume.pdf",
