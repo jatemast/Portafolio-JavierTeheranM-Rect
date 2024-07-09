@@ -23,7 +23,8 @@ const Home = () => {
       <img
         alt="developer"
         src={developerHeader}
-        className="absolute left-[50%] top-[400px] transform -translate-x-1/2 w-[300px] h-[300px] md:w-[200px] md:h-[200px] rounded-md" // Cambiado a rounded-md para esquinas más redondeadas
+        className="absolute left-[50%] top-[400px] transform -translate-x-1/2 w-[300px] h-[300px] md:w-[200px] md:h-[200px] rounded-md rotate-90" // Added rotate-90 class to rotate the image
+        style={{ position: "absolute", left: "50%", top: "400px", transform: "translateX(-50%) rotate(90deg)" }} // Modified the style to rotate the image using CSS transform property
       />
     </div>
   );
