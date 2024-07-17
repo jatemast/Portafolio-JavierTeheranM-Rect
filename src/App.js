@@ -9,7 +9,7 @@ import SlideBar from "./components/SlideBar";
 function App() {
   return (
     <div className=" ">
-      <NavBar />
+      
       <SlideBar />
       <Home />
       
