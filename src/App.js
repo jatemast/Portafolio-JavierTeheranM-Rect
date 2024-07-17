@@ -15,7 +15,16 @@ function App() {
       
       <About />
       <Projects />
+      <br />
+      <br />
+      <br />
+      <br />
+       
+      <br />
+      <br />
       <Experience />
+      <br />
+      <br />
       <Contact />
     </div>
   );

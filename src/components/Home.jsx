@@ -1,5 +1,5 @@
 import React from "react";
-import developerHeader from "../assets/developer.png";
+import developerHeader from "../assets/developer.webp";
 import header from "../assets/header.png";
 import { Link } from "react-scroll";
 
@@ -23,8 +23,8 @@ const Home = () => {
       <img
         alt="developer"
         src={developerHeader}
-        className="absolute left-[50%] top-[400px] transform -translate-x-1/2 w-[300px] h-[300px] md:w-[200px] md:h-[200px] rounded-md rotate-90" // Added rotate-90 class to rotate the image
-        style={{ position: "absolute", left: "50%", top: "400px", transform: "translateX(-50%) rotate(90deg)" }} // Modified the style to rotate the image using CSS transform property
+        className="absolute left-[50%] top-[400px] transform -translate-x-1/2 w-[300px] h-[300px] md:w-[200px] md:h-[200px] rounded-md rotate-90"
+        style={{ position: "absolute", left: "50%", top: "400px", transform: "translateX(-50%) rotate(90deg)", borderRadius: "10px" }} // Added borderRadius property to make the corners less pointy
       />
     </div>
   );
