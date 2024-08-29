@@ -13,6 +13,7 @@ const About = () => {
           ¡Hola! Mi nombre es Javier Teherán Magallanes. Soy tecnólogo en desarrollo de software y estudiante de ingeniería en sistemas en décimo semestre.
           
           Cuento con casi 2 años de experiencia en el área de desarrollo de software, en los cuales he trabajado en proyectos de desarrollo web tanto en el front-end como en el back-end, utilizando tecnologías como React, Laravel, Flask, Tailwind CSS, entre otras.
+          Soy desarrollador backend es mi fuerte y estoy en constante aprendizaje para mejorar mis habilidades en el desarrollo de software.
         
           
          
