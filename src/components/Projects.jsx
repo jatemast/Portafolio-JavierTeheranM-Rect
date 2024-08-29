@@ -19,9 +19,9 @@ const Projects = () => {
     },
     {
       description:
-        "Portafolio en wordpress desplegado en 000host",
+        "Backend demo api rest full, demostrativo",
       projectsImageSrc: projectImage,
-      deployLink: "https://javierteheran.000webhostapp.com/#",
+      githubLink: "https://github.com/jatemast/SpraYL",
     },
   ];
 
